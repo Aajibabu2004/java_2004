@@ -13,7 +13,7 @@ class Father extends GrandFather{
 	}
 }
 
-class Child extends GrandFather{
+class Child1 extends GrandFather{
 	public void property3() {
 		System.out.println("Child Property");
 	}
@@ -23,7 +23,7 @@ public class Hierarchial {
 
 	public static void main(String[] args) {
 		Father f = new Father();
-		Child c = new Child();
+		Child1 c = new Child1();
 		
 		f.property();
 		f.property2();
